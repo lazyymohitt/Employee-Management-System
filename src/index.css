@@ -1,3 +1,8 @@
+@font-face {
+  font-family: "Gilroy";
+  src: url(./Gilroy-Medium.ttf);
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -5,7 +10,7 @@
 * {
   padding: 0;
   margin: 0;
-  font-family: Gilroy ,sans-serif;
+  font-family: Gilroy ;
   color: #fff;
   box-sizing: border-box;
 }
