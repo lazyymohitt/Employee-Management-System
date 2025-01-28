@@ -20,3 +20,7 @@ body {
   background-color: #111;
   width: 100%;
 }
+
+#TaskLists::-webkit-scrollbar{
+display: none;
+}
