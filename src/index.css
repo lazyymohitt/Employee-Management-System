@@ -24,3 +24,7 @@ body {
 #TaskLists::-webkit-scrollbar{
 display: none;
 }
+
+#Tasks::-webkit-scrollbar{
+  display: none;
+  }
