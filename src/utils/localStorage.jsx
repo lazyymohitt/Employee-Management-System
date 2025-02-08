@@ -9,7 +9,7 @@ const employees = [
           "active": 2,
           "newTask": 1,
           "completed": 1,
-          "failed": 0
+          "active": 0
       },
       "tasks": [
           {

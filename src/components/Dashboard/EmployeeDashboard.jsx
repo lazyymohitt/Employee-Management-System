@@ -8,9 +8,9 @@ const EmployeeDashboard = ({data}) => {
   console.log(data)
   return (
     <div className='h-screen p-8 bg-[#1C1C1C]'>
-        <Header/>
-        <TaskListNumbers/>
-        <TaskLists/>
+        <Header data={data}/>
+        <TaskListNumbers data={data}/>
+        <TaskLists data={data}/>
     </div>
   )
 }
