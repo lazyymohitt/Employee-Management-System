@@ -2,7 +2,7 @@ import React from 'react'
 
 const CompleteTask = () => {
   return (
-    <div className=" rounded-lg p-6 flex-shrink-0 bg-red-400 h-full w-[26vw]">
+    <div className=" rounded-lg  py-4 px-2 flex-shrink-0 bg-red-400 h-full w-[26vw]">
         <div className='flex items-center justify-between'>
           <h2 className='bg-red-500 px-2 py-1 text-xs rounded-sm'>High</h2>
           <h3 className='text-xs'>11 Jan 2025</h3>
