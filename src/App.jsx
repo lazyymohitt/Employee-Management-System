@@ -3,26 +3,18 @@ import Login from './components/Auth/Login'
 import EmployeeDashboard from './components/Dashboard/EmployeeDashboard'
 import AdminDashboard from './components/Dashboard/AdminDashboard'
 import { AuthContext } from './context/AuthProvider'
-
 const App = () => {
-
   const [user, setUser] = useState(null)
   const [loggedInUserData, setLoggedInUserData] = useState(null)
   const [userData,SetUserData] = useContext(AuthContext)
-
   useEffect(()=>{
-    const loggedInUser = localStorage.getItem('loggedInUser')
-    
+    const loggedInUser = localStorage.getItem('loggedInUser') 
     if(loggedInUser){
-     
       const userData = JSON.parse(loggedInUser)
       setUser(userData.role)
       setLoggedInUserData(userData.data)
     }
-
   },[])
-
-
   const handleLogin = (email, password) => {
     if (email == 'admin@me.com' && password == '123') {
       setUser('admin')
@@ -39,7 +31,6 @@ const App = () => {
       alert("Invalid Credentials")
     }
   }
-
   return (
     <>
       {!user ? <Login handleLogin={handleLogin} /> : ''}
@@ -47,5 +38,4 @@ const App = () => {
     </>
   )
 }
-
 export default App
