@@ -40,8 +40,6 @@ const App = () => {
     }
   }
 
-
-
   return (
     <>
       {!user ? <Login handleLogin={handleLogin} /> : ''}
