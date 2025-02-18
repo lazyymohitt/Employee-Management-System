@@ -1,12 +1,10 @@
 import React, { useState } from "react";
 import { setLocalStorage } from "../../utils/localStorage";
-
 const Header = (props) => {
   const logOutUser = () => {
     localStorage.setItem("loggedInUser", "");
     props.changeUser("");
   };
-
   return (
     <div className="flex items-end justify-between">
       <h1 className="text-2xl font-medium">
@@ -21,5 +19,4 @@ const Header = (props) => {
     </div>
   );
 };
-
 export default Header;
