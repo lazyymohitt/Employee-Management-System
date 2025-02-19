@@ -1,6 +1,10 @@
 # Employee Management System
 
-![Employee Management System](https://via.placeholder.com/1000x400?text=Employee+Management+System)
+![Employee Management System]
+(
+![Screenshot (16)](https://github.com/user-attachments/assets/572da9a0-e820-4f41-a746-0bf86072e1a9)
+)
+
 
 ## 🚀 Overview
 
@@ -59,7 +63,14 @@ http://localhost:5173
 
 | Dashboard | Employee List |
 |-----------|--------------|
-| ![Dashboard](https://via.placeholder.com/500x300) | ![Employee List](https://via.placeholder.com/500x300) |
+| ![Dashboard](
+![Screenshot (15)](https://github.com/user-attachments/assets/4c0de124-4425-42e4-86f8-b96dcd65393a)
+
+)
+) | ![Employee List](
+![Screenshot (17)](https://github.com/user-attachments/assets/3749261d-a347-4e53-bddb-749b523c676c)
+
+) |
 
 ## 📌 Usage
 
