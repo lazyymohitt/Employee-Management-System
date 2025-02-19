@@ -1,10 +1,6 @@
 # Employee Management System
 
-![Employee Management System]
-
-![Screenshot (16)](https://github.com/user-attachments/assets/003b27f7-de4a-4968-83e9-14d2df66a7bf)
-![Screenshot (15)](https://github.com/user-attachments/assets/1f87bac6-24e2-453c-8d11-77c1bf158766)
-![Screenshot (17)](https://github.com/user-attachments/assets/654aa7f8-95f0-4ce4-ac85-0b2310e136e6)
+![Employee Management System](https://via.placeholder.com/1000x400?text=Employee+Management+System)
 
 ## 🚀 Overview
 
@@ -14,33 +10,82 @@ The **Employee Management System** is a web application developed using React.js
 
 - **Add Employees:** Easily add new employees with essential details.
 - **View Employees:** Display a list of all employees with their information.
-- **Responsive Design:** Ensures compatibility across various devices and screen sizes.
-- **Modern UI:** Clean and intuitive user interface for enhanced user experience.
+- **Responsive Design:** Ensures smooth usage across devices.
+- **Lightweight & Fast:** Built with Vite for optimal performance.
 
 ## 🛠️ Tech Stack
 
 - **Frontend:** React.js, Vite, Tailwind CSS
-- **State Management:** React Hooks
-- **Routing:** React Router
-- **Icons:** React Icons
+- **State Management:** useState, useEffect (React Hooks)
+- **Version Control:** Git & GitHub
 
 ## 🎯 Installation & Setup
 
-To run this project locally, follow these steps:
+Follow these steps to set up the project on your local machine:
 
-1. **Clone the repository:**
+### 1️⃣ Clone the Repository
 
-   ```bash
-   git clone https://github.com/lazyymohitt/Employee-Management-System.git
+```bash
+git clone https://github.com/lazyymohitt/Employee-Management-System.git
+```
 
-2. Navigate to the project directory: 
-       cd Employee-Management-System
+### 2️⃣ Navigate to the Project Directory
 
-3. Install dependencies:
-           npm install
- 
-4. Start the development server:
-    npm run dev
- 
+```bash
+cd Employee-Management-System
+```
 
-                                    
+### 3️⃣ Install Dependencies
+
+```bash
+npm install
+```
+
+### 4️⃣ Start the Development Server
+
+```bash
+npm run dev
+```
+
+### 5️⃣ Open the Application
+
+Once the development server is running, open your browser and navigate to:
+
+```bash
+http://localhost:5173
+```
+
+## 📸 Screenshots
+
+| Dashboard | Employee List |
+|-----------|--------------|
+| ![Dashboard](https://via.placeholder.com/500x300) | ![Employee List](https://via.placeholder.com/500x300) |
+
+## 📌 Usage
+
+1. **Home Page:** View the dashboard with employee details.
+2. **Add Employee:** Fill out a form to add new employees.
+3. **Search Employees:** Find employees using search functionality.
+4. **Responsive UI:** Works on desktops, tablets, and mobiles.
+
+## 👨‍💻 Contributing
+
+Contributions are welcome! Follow these steps to contribute:
+
+1. **Fork the repository** on GitHub.
+2. **Create a new branch** (`feature-branch`).
+3. **Make your changes** and commit them.
+4. **Push to your branch** and create a **Pull Request**.
+
+## 📄 License
+
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for details.
+
+## 📞 Contact
+
+📧 **Email:** lazyymohitt@gmail.com  
+🐙 **GitHub:** [@lazyymohitt](https://github.com/lazyymohitt)
+
+---
+
+💡 *An efficient way to manage employees with ease!* 🚀
