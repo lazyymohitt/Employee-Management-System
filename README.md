@@ -1,6 +1,10 @@
 # Employee Management System
 
-![Employee Management System](https://via.placeholder.com/1000x400?text=Employee+Management+System)
+![Employee Management System]
+
+![Screenshot (16)](https://github.com/user-attachments/assets/003b27f7-de4a-4968-83e9-14d2df66a7bf)
+![Screenshot (15)](https://github.com/user-attachments/assets/1f87bac6-24e2-453c-8d11-77c1bf158766)
+![Screenshot (17)](https://github.com/user-attachments/assets/654aa7f8-95f0-4ce4-ac85-0b2310e136e6)
 
 ## 🚀 Overview
 
@@ -28,3 +32,15 @@ To run this project locally, follow these steps:
 
    ```bash
    git clone https://github.com/lazyymohitt/Employee-Management-System.git
+
+2. Navigate to the project directory: 
+       cd Employee-Management-System
+
+3. Install dependencies:
+           npm install
+ 
+4. Start the development server:
+    npm run dev
+ 
+
+                                    
